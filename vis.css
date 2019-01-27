@@ -1,0 +1,93 @@
+#a1{
+	border: 3px solid #D3D3D3;
+}
+#a2{
+	background: #3D4F5B;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	font-family:Georgia;
+	font-size: 22px;
+}
+#a3{
+	color: white;
+	width: 30%;
+	float: left;
+	background:linear-gradient(to left,#6E6E6E,#424242)
+}
+#foto{
+	margin-top: 30px;
+	margin-left: 22%; 
+    width: 50%; 
+
+}
+#cent{
+	text-align: center;
+}
+#like{
+	text-align: center;	
+}
+#a4{
+	font:bold 15px Georgia;
+	width: 70%;
+	float: right;
+	background:#FFFFFF;
+	color: #084B8A;
+}
+ul{
+	margin: 0;
+}
+ul.dashed{
+	list-style-type: none;
+	margin-left: -30px;
+}
+ul.dashed > li{
+	text-indent:-5px;
+}
+ul.dashed > li:before {
+	content: "– ";
+	text-indent:-5px;
+}
+div.border{
+	border-bottom: 2px solid #0080FF
+}
+.border{
+	margin: 0px 25px 5px 25px;
+	padding-bottom: 10px;
+}
+#fio{
+	font: bold 35px Bradley Hand;
+	text-align: center;
+	border-bottom: 2px solid #FFFF00;
+}
+.left{
+	margin: 0px 20px 5px 10px;
+	padding-bottom: 10px;
+}
+a{
+	color: #18BFF4; 
+}
+#bor{
+	background: #008000;
+	border-radius: 100px;
+	margin-bottom: 10px;
+}
+#milk{
+	background: #FFA500;
+	border-radius: 100px;
+	margin-right: 20%;
+	margin-bottom: 10px;
+}
+#banana{
+	background: #0174DF;
+	border-radius: 100px;
+	margin-right: 50%;
+	margin-bottom: 10px;
+}
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
